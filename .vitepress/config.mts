@@ -3,6 +3,7 @@ import { set_sidebar } from "../utils/auto-gen-siderbar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/vitepress-blog/",
   title: "EricFan的文档站",
   description: "EricFan的文档站",
   lastUpdated: true,
